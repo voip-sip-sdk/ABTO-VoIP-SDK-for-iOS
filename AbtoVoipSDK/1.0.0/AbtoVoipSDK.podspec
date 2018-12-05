@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '8.0'
   s.frameworks = 'SystemConfiguration', 'CoreMedia', 'CoreGraphics', 'UIKit', 'Accelerate', 'AudioToolbox', 'AVFoundation', 'Foundation'
   s.vendored_frameworks = 'AbtoVoipSDK/1.0.0/AbtoSipClientWrapper.framework'
-  s.resources = 'AbtoVoipSDK/1.0.0/AbtoSipClientWrapper.framework/Resources/*'
+  s.resources = 'AbtoVoipSDK/1.0.0/AbtoSipClientWrapper.framework/Resources/*.{wav,mp3,caf}'
   s.libraries = 'c++', 'z'
   s.requires_arc = true
 end
