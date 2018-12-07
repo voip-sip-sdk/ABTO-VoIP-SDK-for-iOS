@@ -13,9 +13,11 @@ CocoaPods
 ### Podfile setup
 
 \# Minimal supported version is 8.0
+
 platform :ios, '8.0'
 
 \# location for custom Pod spec
+
 source 'https://github.com/voip-sip-sdk/ABTO-VoIP-SDK-for-iOS.git'
 
 pod 'AbtoVoipSDK', '~> 1.0.0'
