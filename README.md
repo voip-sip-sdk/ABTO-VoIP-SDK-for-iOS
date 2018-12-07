@@ -20,7 +20,7 @@ platform :ios, '8.0'
 source 'https://github.com/voip-sip-sdk/ABTO-VoIP-SDK-for-iOS.git'
 ```
 
-in all targets that should use ABTO VoIP SDK include
+In all targets that should use ABTO VoIP SDK include
 
 ```
 pod 'AbtoVoipSDK', '~> 1.0.0'
