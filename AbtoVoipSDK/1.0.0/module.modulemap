@@ -1,0 +1,7 @@
+
+framework module AbtoVoipSdk {
+       umbrella header "AbtoVoipSDK.h"
+       
+       export *
+       module * { export * }
+}
