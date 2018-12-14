@@ -10,9 +10,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'SystemConfiguration', 'CoreMedia', 'CoreGraphics', 'UIKit', 'Accelerate', 'AudioToolbox', 'AVFoundation', 'Foundation'
   s.vendored_frameworks = 'AbtoVoipSDK/1.0.0/AbtoSipClientWrapper.framework'
   s.resources = 'AbtoVoipSDK/1.0.0/AbtoSipClientWrapper.framework/Resources/*.{wav,mp3,caf}'
-  s.source_files = 'AbtoVoipSDK/1.0.0/*.h'
-  s.preserve_paths = 'AbtoVoipSDK/1.0.0/*.{h,modulemap}'
-  s.public_header_files = 'AbtoVoipSDK/1.0.0/*.h'
   s.libraries = 'c++', 'z'
   s.requires_arc = true
 end
