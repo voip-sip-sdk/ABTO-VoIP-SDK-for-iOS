@@ -15,12 +15,17 @@ CocoaPods
 ```
 # Minimal supported version is 8.0
 platform :ios, '8.0'
+
+# include all required sources in addition to ABTO one
+source 'https://github.com/artsy/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/voip-sip-sdk/ABTO-VoIP-SDK-for-iOS.git'
 ```
 
 In all targets that should use ABTO VoIP SDK include
 
 ```
-pod 'AbtoVoipSDK', '~> 1.0.0', :source 'https://github.com/voip-sip-sdk/ABTO-VoIP-SDK-for-iOS.git'
+pod 'AbtoVoipSDK', '~> 1.0.0'
 ```
 
 ### Pod project configuration
